@@ -1,0 +1,68 @@
+﻿					NMAP Scanned Tool
+
+
+
+www.google.com  172.217.174.228    2404:6800:4009:80b::2004  not sccanned
+rDNS record   172.217.174.228	bom12s03-in-f4.1e100.net
+default  port while sccanning first time  http or  https
+not shown   998 filtered ports
+
+nmap ip/host/network  -vv     for more information
+
+
+
+
+nmap -p 1-65535 172.217.174.228
+
+nmap -p 443,8080 172.217.174.228
+
+nmap 172.217.174.228/* 
+
+nmap 172.217.174.228-255
+
+nmap --top-ports 20 172.217.174.228
+
+nmap -iL index.php       #from file get i/p (hostname ipaddres ports)
+
+nmap -p 80 -n 172.217.174.228   # for disabling the reverse DNS
+
+nmap -A -T4 172.217.174.228  #A for OS and T4 for faster execution
+
+nmap -sV 172.217.174.228   # s for service/daemon  and V for version
+
+nmap -sT/U 172.217.174.228    # sT/U   for service of TCP and UDP
+
+nmap -Pn --script vuln 172.217.174.228
+
+nmap --script ftp-brute -p80 172.217.174.228
+
+nmap -sV --script=http-malware-host 172.217.174.228
+
+
+
+port TCP 1000
+
+mass_rdns: Using DNS server 192.168.43.1
+mass_rdns: Using DNS server 2402:8100:b::1
+
+
+In url encoding    hexadecimal format 
+space  %20  
+dollar %24
+
+
+In ASCII           decimal format
+
+
+
+
+https://www.google.com/search?q=how+url+works&ie=utf-8&oe=utf-8&client=firefox-b-ab  
+rDNS  &&  filtered ports &&   Stealth scan
+
+
+TCP/IP fingerprint 
+
+parallel DNS
+
+
+
